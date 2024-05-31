@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#intro {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-image: url('assets/images/cover-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cover-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#features {
+    padding: 50px;
+    text-align: center;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+}
+
+.feature h3 {
+    margin: 20px 0 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #666;
+}
+
+#about {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#about p {
+    font-size: 16px;
+    color: #333;
+}
+
+.team-member {
+    margin: 20px 0;
+}
+
+.team-member h3 {
+    margin-bottom: 5px;
+}
+
+.team-member a {
+    margin: 0 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.team-member a:hover {
+    text-decoration: underline;
+}
+
